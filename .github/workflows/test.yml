@@ -11,6 +11,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }} / Node ${{ matrix.node }}
     steps:
+      - name: Install prerequisites
+        if: ${{ matrix.os == 'ubuntu-latest' }}
+        run: |
+          sudo apt-get install -y libgoogle-glog-dev
       - name: Checkout
         uses: actions/checkout@v3
         with:
