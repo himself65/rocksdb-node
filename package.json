@@ -1,5 +1,5 @@
 {
-  "name": "@nxtedition/rocksdb",
+  "name": "@rsdb/core",
   "version": "9.0.1",
   "description": "A low-level Node.js RocksDB binding",
   "license": "MIT",
