@@ -25,7 +25,7 @@
     "delayed": "^2.0.0",
     "dependency-check": "^4.1.0",
     "du": "^1.0.0",
-    "faucet": "^0.0.3",
+    "faucet": "^0.0.4",
     "glob": "^8.0.3",
     "mkfiletree": "^2.0.0",
     "node-gyp": "^10.0.1",
